@@ -1,13 +1,13 @@
 // plik scripts.js
 
 var withButtonClass = document.getElementsByClassName('button');
-// console.log(withButtonClass);
 
 var q = withButtonClass.length;
 
+function rewriteButton(text) {
+	alert(text);
+}
 
-for ( var a = 0; q != a; a++) {
-	document.getElementsByClassName('button');
-	withButtonClass.innerText = 'button';
-	alert(withButtonClass);
+for (var a = 0; q > a; a++) {
+	rewriteButton(withButtonClass[a].innerText)
 }
